@@ -8,5 +8,5 @@ require('./config/bodyparser')(server);
 require('./routes/routes')(server);
 
 server.listen(process.env.PORT ? process.env.PORT : 3000,'0.0.0.0', function () {
-    console.log("Rest API Listening on port ::  " + (process.env.PORT ? process.env.PORT : 3000));
+    console.log("NodeJS Rest API Listening on port ::  " + (process.env.PORT ? process.env.PORT : 3000));
 });
